@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Milkjake/mimi-test-practice/issues"
   },
-  "homepage": "https://github.com/Milkjake/mimi-test-practice#readme"
+  "homepage": "https://github.com/Milkjake/mimi-test-practice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
