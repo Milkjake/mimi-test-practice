@@ -4,7 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "start-server": "node app.js",
+    "test": "jest",
+    "cy:run": "cypress run --browser chrome",
+    "cy:open": "cypress open",
+    "ci": "start-server-and-test start-server http://localhost:3000 cy:run"
   },
   "repository": {
     "type": "git",
@@ -20,6 +24,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "jest": "^27.0.1"
+    "cypress": "^7.4.0",
+    "jest": "^27.0.1",
+    "start-server-and-test": "^1.12.3"
   }
 }
